@@ -7,10 +7,11 @@ def total(num):
 
 def maximum(arr1):
     numbers1 = 0
-
-    for i in range(1, len(arr1)):
+    i = 1
+    while i < len(arr1):
         if arr1[numbers1] < arr1[i]:
             numbers1 = i
+        i += 1
 
     return arr1[numbers1]
 

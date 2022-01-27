@@ -20,7 +20,7 @@ class Customer:
         list1 = [(str(Customer.full_naming(self)))]
         list1.append(str(self.age))
         list1.append(str((Customer.entry_fee(self))))
-        i = ' '.join(list1)
+        i = '\t'.join(list1)
         return i
 
 

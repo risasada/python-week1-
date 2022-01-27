@@ -3,3 +3,5 @@ def dice():
     number = random.randint(1, 6)
     return number
 
+
+        
